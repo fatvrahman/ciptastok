@@ -18,7 +18,11 @@ const config: Config = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        primary: "#5750F1",
+        black: "#000000",
+        "off-white": "#FAFAFA",
+        "light-brown": "#F5EBE0",
+        tan: "#E8DDD0",
+        primary: "#1A4D2E",
         stroke: "#E6EBF1",
         "stroke-dark": "#27303E",
         dark: {
@@ -80,9 +84,25 @@ const config: Config = {
           },
         },
         orange: {
+          DEFAULT: "#F97316",
+          dark: "#EA580C",
           light: {
-            DEFAULT: "#F59460",
+            DEFAULT: "#FB923C",
+            1: "#FDBA74",
+            2: "#FED7AA",
+            3: "#FFEDD5",
+            4: "#FFF7ED",
           },
+        },
+        peach: {
+          DEFAULT: "#FFDAB9",
+          light: "#FFE4CC",
+          dark: "#FFCBA4",
+        },
+        salmon: {
+          DEFAULT: "#FA8072",
+          light: "#FFB6A8",
+          dark: "#E57368",
         },
         yellow: {
           dark: {
@@ -268,6 +288,9 @@ const config: Config = {
       },
       backgroundImage: {
         video: "url('../images/video/video.png')",
+        'gradient-warm': 'linear-gradient(135deg, #F5EBE0 0%, #E8DDD0 25%, #F0E6DC 60%, #EAE0D5 100%)',
+        'gradient-warm-alt': 'linear-gradient(to bottom right, #F5EBE0 0%, #EDD9CC 33%, #F0E6DC 66%, #E8DDD0 100%)',
+        'gradient-login': 'linear-gradient(135deg, #FFE8DC 0%, #FFD4C2 15%, #E8E8E8 50%, #D3D3D3 100%)',
       },
       content: {
         "icon-copy": 'url("../images/icon/icon-copy-alt.svg")',

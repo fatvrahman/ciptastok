@@ -2,103 +2,81 @@ import * as Icons from "../icons";
 
 export const NAV_DATA = [
   {
-    label: "MAIN MENU",
+    label: "DASHBOARD",
     items: [
       {
         title: "Dashboard",
+        url: "/dashboard",
         icon: Icons.HomeIcon,
+        items: [],
+      },
+    ],
+  },
+  {
+    label: "MAIN MENU",
+    items: [
+      {
+        title: "Monitoring Opname",
+        icon: Icons.FourCircle,
         items: [
           {
-            title: "eCommerce",
-            url: "/",
+            title: "Daftar Monitoring",
+            url: "/monitoring",
+          },
+          {
+            title: "Assignment Baru",
+            url: "/monitoring/baru",
           },
         ],
       },
       {
-        title: "Calendar",
-        url: "/calendar",
-        icon: Icons.Calendar,
-        items: [],
-      },
-      {
-        title: "Profile",
-        url: "/profile",
-        icon: Icons.User,
-        items: [],
-      },
-      {
-        title: "Forms",
-        icon: Icons.Alphabet,
-        items: [
-          {
-            title: "Form Elements",
-            url: "/forms/form-elements",
-          },
-          {
-            title: "Form Layout",
-            url: "/forms/form-layout",
-          },
-        ],
-      },
-      {
-        title: "Tables",
-        url: "/tables",
+        title: "Manajemen Produk",
         icon: Icons.Table,
         items: [
           {
-            title: "Tables",
-            url: "/tables",
+            title: "Daftar Produk",
+            url: "/produk",
+          },
+          {
+            title: "Tambah Produk",
+            url: "/produk/baru",
           },
         ],
       },
       {
-        title: "Pages",
-        icon: Icons.Alphabet,
+        title: "Riwayat Opname",
+        icon: Icons.Calendar,
         items: [
           {
-            title: "Settings",
-            url: "/pages/settings",
+            title: "Daftar Riwayat",
+            url: "/riwayat",
           },
         ],
       },
     ],
   },
   {
-    label: "OTHERS",
+    label: "UTILITY",
     items: [
       {
-        title: "Charts",
-        icon: Icons.PieChart,
+        title: "Manajemen User",
+        icon: Icons.User,
         items: [
           {
-            title: "Basic Chart",
-            url: "/charts/basic-chart",
+            title: "Daftar User",
+            url: "/users",
+          },
+          {
+            title: "Activity Log",
+            url: "/users/log",
           },
         ],
       },
       {
-        title: "UI Elements",
-        icon: Icons.FourCircle,
-        items: [
-          {
-            title: "Alerts",
-            url: "/ui-elements/alerts",
-          },
-          {
-            title: "Buttons",
-            url: "/ui-elements/buttons",
-          },
-        ],
-      },
-      {
-        title: "Authentication",
-        icon: Icons.Authentication,
-        items: [
-          {
-            title: "Sign In",
-            url: "/auth/sign-in",
-          },
-        ],
+        title: "Pengaturan",
+        url: "/pengaturan",
+        icon: Icons.Settings,
+        items: [],
       },
     ],
   },

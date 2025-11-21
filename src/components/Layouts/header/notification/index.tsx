@@ -55,7 +55,7 @@ export function Notification() {
       }}
     >
       <DropdownTrigger
-        className="grid size-12 place-items-center rounded-full border bg-gray-2 text-dark outline-none hover:text-primary focus-visible:border-primary focus-visible:text-primary dark:border-dark-4 dark:bg-dark-3 dark:text-white dark:focus-visible:border-primary"
+        className="grid size-10 place-items-center rounded-2xl text-gray-600 outline-none hover:bg-gray-100 hover:text-gray-900 focus-visible:bg-gray-100"
         aria-label="View Notifications"
       >
         <span className="relative">
@@ -81,7 +81,7 @@ export function Notification() {
           <span className="text-lg font-medium text-dark dark:text-white">
             Notifications
           </span>
-          <span className="rounded-md bg-primary px-[9px] py-0.5 text-xs font-medium text-white">
+          <span className="rounded-md bg-blue-600 px-[9px] py-0.5 text-xs font-medium text-white">
             5 new
           </span>
         </div>
